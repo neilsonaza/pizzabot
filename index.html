@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Pizzabot</title>
+
+    <style>
+        body {
+            background-color: rgb(86, 6, 6);
+        }
+        
+        #heading {
+            color: rgb(238, 159, 159);
+        }
+        
+        #btn2 {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading">Hey! Happy to serve your pizza. On our menu we have Vegetarian Pizza, Hawaiian Pizza and Pepperoni Pizza</h1>
+    <input type="text" id="svarInput">
+    <button id="btn1" onclick="checkOrderName()">Enter name of pizza</button>
+    <button id="btn2" onclick="fulFillOrder()">Continue</button>
+
+    <script src="./pizzabot.js" charset="utf-8"></script>
+</body>
+
+</html>
